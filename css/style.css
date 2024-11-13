@@ -1,0 +1,75 @@
+.donker{
+  background-color: #1E444E;
+}
+.licht{
+  background-color: #18D6CD;
+}
+.img-fluid{
+  height: 300px;
+  max-width: 300px;
+}
+.tekstkleur-licht{
+  color: #18D6CD;
+}
+
+nav{
+  height: 150x;
+}
+.nav-underline .nav-link{
+  color:#1E444E;
+}
+.nav-underline .nav-link:focus{
+  color: #18D6CD;
+}
+.nav-underline .nav-link.active{
+  color: #18D6CD;
+}
+.nav-underline .nav-link:hover{
+  color: #18D6CD;
+}
+.dropdown-item{
+  color: #1E444E;
+}
+.dropdown-item:hover{
+  background-color: #18D6CD;
+  color: #1E444E;
+
+}
+.text-dark{
+  color:#1E444E;
+}
+.blockquote-footer{
+  color:white;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: #18D6CD;
+}
+hr{
+  color: #18D6CD;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.card{
+  border-color: #18D6CD;
+}
+.btn-primary:hover{
+  color: #18D6CD;
+  background-color: #1E444E;
+  border-width: 1px;
+  border-color: #18D6CD;
+}
+.btn-primary{
+  background-color: #18D6CD;
+  color: #1E444E;
+  border-color: #18D6CD;
+  --bs-btn-active-bg: #18d6cd;
+  --bs-btn-active-color: #1E444E;
+
+}
+.card{
+  margin: 50px;
+}
