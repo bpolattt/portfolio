@@ -87,3 +87,7 @@ body, html {
 .padding{
   padding-left: 58px;
 }
+#mol {
+  width: 100%;
+  height: 250px;
+}

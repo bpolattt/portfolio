@@ -16,11 +16,20 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer>
     </script>
+     <!-- LEAFLET -->
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+
   <!-- eigen geschreven css voor jouw html-bestand -->
   <link rel="stylesheet" href="css/style.css">
-
   <link rel="stylesheet" href="css/font.css">
+  <!-- eigen geschreven css voor jouw html-bestand -->
   <script src="js/script.js" defer></script>
+<script src="js/kaart.js" defer></script>
 </head>
 
 <body class="donker">
@@ -62,6 +71,7 @@
 </header>
 <hr>
 <main class="container-fluid overflow-hidden mt-3 mb-5 w-50">
+  
     <form action="#" method="POST" data-netlify="true">
         <fieldset class="row container gx-5">
             <legend class="tekstkleur-licht fw-bold pt-3">Contacteer mij</legend>
@@ -86,6 +96,9 @@
         </div>
         </fieldset>
     </form>
+    <section id="map" class="row mt-5">
+      <div id="mol" class="col-12 mb-3"></div>
+    </section>
 </main>
 <hr>
 <footer class="text-light donker mt-5 container-fluid">
