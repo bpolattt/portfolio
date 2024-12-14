@@ -73,3 +73,17 @@ hr{
 .card{
   margin: 50px;
 }
+.accordion{
+  --bs-accordion-bg: #D9F3FB;
+  --bs-accordion-border: #1E444E;
+  --bs-accordion-active-bg: #18D6CD;
+  --bs-accordion-btn-focus-box-shadow: none;
+
+
+}
+body, html {
+  overflow-x: hidden;
+}
+.padding{
+  padding-left: 58px;
+}

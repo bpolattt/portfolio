@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="css/style.css">
   <!-- fonts css-->
   <link rel="stylesheet" href="css/font.css">
+  <script src="js/script.js" defer></script>
 </head>
 
 <body class="donker">
@@ -58,6 +59,8 @@
 <header>
   
 </header>
+<div class="row">
+  <div class="col-md-9">
 <main class="container-fluid text-light p-5">
   <section class="row" id="info">
     <article class="col-md-8 mt-5">
@@ -84,15 +87,16 @@
     </article>
   </section>
   
-  <section class="donker container-fluid text-light">
+  
+  <section class="donker container-fluid text-light container">
     <header class="text-center">
-      <h1 class="fw-bolder">Opleiding en Carrièrepad</h1>
+      <h1>Opleiding en Carrièrepad</h1>
       <blockquote class="blockquote" cite="https://www.brainyquote.com/quotes/benjamin_franklin_141119">
         <p>An investment in knowledge pays the best interest.</p>
       </blockquote>
     </header>
 
-    <div class="row ">
+    <div class="row">
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -138,13 +142,29 @@
       </div>
   </section>
 </main>
+</div>
+<aside class="col-md-3 p-5 text-light">
+  <h1 class="mb-3">Mijn Werk</h1>
+
+  <ul class="list-group mb-3">
+    <li class="list-group-item">An active item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+    <li class="list-group-item">A fourth item</li>
+    <li class="list-group-item">And a fifth one</li>
+  </ul>
+  <p>Ben je geïnteresseerd in een samenwerking of wil je meer weten over mijn ervaring? Neem dan gerust contact met me op via de <a href="contact.html">contact</a> pagina.</p>
+
+</aside>
+
 <hr>
-<footer class="text-light donker container-fluid mt-5">
+
+<footer class="text-light donker mt-5 container-fluid">
   <div class="row">
     <section class="col-lg-6 col-md-12">
-      <h5 class="text-uppercase tekstkleur-licht">Burak's Portfolio</h5>
-      <p class="mb-0">Bedankt om mijn persoonlijke portfolio website te bezoeken.</p>
-      <p>Je kan me contacteren via de contact pagina.</p>
+      <h5 class="text-uppercase tekstkleur-licht padding">Burak's Portfolio</h5>
+      <p class="mb-0 padding">Bedankt om mijn persoonlijke portfolio website te bezoeken.</p>
+      <p class="padding">Je kan me contacteren via de <a href="contact.html">contact</a> pagina.</p>
     </section>
     <section class="col-lg-3 col-md-6">
       <h5 class="text-uppercase tekstkleur-licht">Snelle links</h5>
@@ -178,13 +198,14 @@
           Noorderplaats 2, 2000 Antwerpen</p>
         </li>
     </section>
-    <section class="text-center p-3 licht text-dark">
-      <p>&copy; 2024 Copyright: Burak Polat</p>
+    <section class="text-center p-3 licht text-dark container-fluid">
+      <p>&copy; <span id="year"></span> Copyright: Burak Polat</p>
 
     </section>
 
   </div>
 </footer>
+
   
 
 
