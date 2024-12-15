@@ -20,12 +20,13 @@
   <link rel="stylesheet" href="css/style.css">
 
   <link rel="stylesheet" href="css/font.css">
+  <script src="js/script.js"></script>
 </head>
 
 <body class="donker">
 
     <nav class="navbar navbar-expand-md bg-info-subtle container-fluid">
-        <a class="navbar-brand" href="#"><img src="assets/images/Logo_portfolio_website-transparant.png" height="150px">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/Logo_portfolio_website-transparant.png" height="150px">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -43,7 +44,7 @@
                 Portfolio
               </a>
               <ul class="dropdown-menu bg-info-subtle">
-                <li><a class="dropdown-item active" href="project.html">Project 1</a></li>
+                <li><a class="dropdown-item active" href="project.html">Project WebWizz</a></li>
                 <li><a class="dropdown-item" href="project.html">Project 2</a></li>
                 <li><a class="dropdown-item" href="project.html">Project 3</a></li>
                 <li><a class="dropdown-item" href="project.html">Project 4</a></li>
@@ -59,35 +60,62 @@
 <main class="container-fluid text-light overflow-hidden">
 <section class="row gx-5 m-5">
     <article class="col-md-6">
-        <h1 class="text-uppercase tekstkleur-licht">Project naam</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, aliquid sunt aliquam sit earum, dolorum maiores odit nulla et molestiae nisi repellendus placeat quae laboriosam sed! Autem eum repellendus delectus.</p>
-        <img src="assets/images/tekst_security_op_scherm.jpg" class="img-fluid" alt="Security op scherm">
+        <h1 class="text-uppercase tekstkleur-licht mb-3">Gestructureerd bekabelingsplan</h1>
+        <p>Dit project omvatte het evalueren van een netwerkdesign, het opstellen van een fysiek bekabelingsplan, rack lay-out, en patchplan, en het toepassen van best practices voor gestructureerd bekabelen.</p>
+        <div id="carouselExampleIndicators" class="carousel slide mt-2">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/images/configuratie_servers.jpg" class="d-block w-100" alt="persoon die servers configureert">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/bekabelingsPlan.png" class="d-block w-100" alt="Bekabelingsplan">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/switch_met_kabels.jpg" class="d-block w-100" alt="switches die verbonden zijn met kabels">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Vorige</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Volgende</span>
+          </button>
+        </div>
     </article>
-    <article class="col-md-6 mt-3">
-        <h3 class="text-uppercase tekstkleur-licht">Punt 1</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae fugit sed consectetur, quos dolorem saepe omnis architecto laudantium veniam veritatis non quae? Quos, sequi saepe? Vitae consequuntur corrupti accusamus dolor?</p>
-        <h3 class="text-uppercase tekstkleur-licht">Punt 2</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae fugit sed consectetur, quos dolorem saepe omnis architecto laudantium veniam veritatis non quae? Quos, sequi saepe? Vitae consequuntur corrupti accusamus dolor?</p>
-        <h3 class="text-uppercase tekstkleur-licht">Punt 3</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae fugit sed consectetur, quos dolorem saepe omnis architecto laudantium veniam veritatis non quae? Quos, sequi saepe? Vitae consequuntur corrupti accusamus dolor?</p>
+    <article class="col-md-6">
+        <h3 class="text-uppercase tekstkleur-licht mb-3">Evaluatie en interpretatie van het netwerkdesign</h3>
+        <p>In de eerste fase van het project werd een bestaand netwerkontwerp geëvalueerd. Dit omvatte het analyseren van de topologie, identificeren van inefficiënties en het opstellen van verbeterpunten om het ontwerp te optimaliseren.</p>
+        
+        <h3 class="text-uppercase tekstkleur-licht mb-3 mt-5">Ontwerp en interpretatie</h3>
+        <p>Het ontwerp richtte zich op het creëren van een fysiek bekabelingsplan, inclusief een rack lay-out en een patchplan. Hierbij werd aandacht besteed aan schaalbaarheid, onderhoudsgemak en het volgen van professionele standaarden</p>
+        
+        <h3 class="text-uppercase tekstkleur-licht mb-3 mt-5">Aankooplijst en optimalisatie</h3>
+        <p>Voor de implementatie werd een aankooplijst opgesteld met alle benodigde netwerkcomponenten. Ook werden kosten geanalyseerd en best practices toegepast, zoals kabelmanagement en redundantie, om een efficiënt en professioneel netwerkdesign te waarborgen.</p>
     </article>
 </section>
     
   
 </main>
 <hr>
-<footer class="text-light donker container-fluid">
+<footer class="text-light donker mt-5 container-fluid">
   <div class="row">
     <section class="col-lg-6 col-md-12">
-      <h5 class="text-uppercase tekstkleur-licht">Burak's Portfolio</h5>
-      <p class="mb-0">Bedankt om mijn persoonlijke portfolio website te bezoeken.</p>
-      <p>Je kan me contacteren via de contact pagina.</p>
+      <h5 class="text-uppercase tekstkleur-licht padding">Burak's Portfolio</h5>
+      <p class="mb-0 padding">Bedankt om mijn persoonlijke portfolio website te bezoeken.</p>
+      <p class="padding">Je kan me contacteren via de <a href="contact.html">contact</a> pagina.</p>
     </section>
     <section class="col-lg-3 col-md-6">
       <h5 class="text-uppercase tekstkleur-licht">Snelle links</h5>
       <ul class="list-unstyled">
         <li>
-          <a href="index.html">Home</a>
+          <a href="#">Home</a>
         </li>
         <li>
           <a href="portfolio.html">Portfolio</a>
@@ -115,8 +143,8 @@
           Noorderplaats 2, 2000 Antwerpen</p>
         </li>
     </section>
-    <section class="text-center pt-3 licht text-dark">
-      <p>&copy; 2024 Copyright: Burak Polat</p>
+    <section class="text-center p-3 licht text-dark container-fluid">
+      <p>&copy; <span id="year"></span> Copyright: Burak Polat</p>
 
     </section>
 

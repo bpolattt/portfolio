@@ -20,12 +20,13 @@
   <link rel="stylesheet" href="css/style.css">
 
   <link rel="stylesheet" href="css/font.css">
+  <script src="js/script.js" defer></script>
 </head>
 
 <body class="donker">
 
   <nav class="navbar navbar-expand-md bg-info-subtle container-fluid">
-    <a class="navbar-brand" href="#"><img src="assets/images/Logo_portfolio_website-transparant.png" height="150px">
+    <a class="navbar-brand" href="index.html"><img src="assets/images/Logo_portfolio_website-transparant.png" height="150px">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -43,7 +44,7 @@
             Portfolio
           </a>
           <ul class="dropdown-menu bg-info-subtle">
-            <li><a class="dropdown-item" href="project.html">Project 1</a></li>
+            <li><a class="dropdown-item" href="project.html">Project WebWizz</a></li>
             <li><a class="dropdown-item" href="project.html">Project 2</a></li>
             <li><a class="dropdown-item" href="project.html">Project 3</a></li>
             <li><a class="dropdown-item" href="project.html">Project 4</a></li>
@@ -67,11 +68,11 @@
         <div class="row d-flex justify-content-center">
             <hr>
             <article class="col-md-4 col-sm-6 col-12 card mt-3 donker text-light" style="width: 18rem;">
-                <img src="assets/images/foto_server.jpg" class="card-img-top mt-3 rounded" alt="foto van een server">
+                <img src="assets/images/switch_met_kabels.jpg" class="card-img-top mt-3 rounded" alt="foto van een bekabelde switch">
                 <div class="card-body">
-                    <h5 class="card-title tekstkleur-licht">Project 1</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptatibus. Nesciunt unde, ratione numquam sed iste molestias laboriosam repellendus accusamus?</p>
-                    <a href="project.html" class="btn btn-primary">Project 1</a>
+                    <h5 class="card-title tekstkleur-licht">Project WebWizz</h5>
+                    <p class="card-text">Voor WebWizz hebben we een gestructureerd bekabelingssysteem aangelegd dat de netwerkprestaties optimaliseert en de infrastructuur klaar maakt voor toekomstige uitbreidingen. Het systeem zorgt voor een betrouwbare, flexibele en schaalbare oplossing die de technologische groei ondersteunt.</p>
+                    <a href="project.html" class="btn btn-primary">Project overzicht</a>
                 </div>
             </article>
             <article class="col-md-4 col-sm-6 col-12 card mt-3 donker text-light" style="width: 18rem;">
@@ -121,21 +122,21 @@
   
 </main>
 <hr>
-<footer class="text-light donker container-fluid">
+<footer class="text-light donker mt-5 container-fluid">
   <div class="row">
     <section class="col-lg-6 col-md-12">
-      <h5 class="text-uppercase tekstkleur-licht">Burak's Portfolio</h5>
-      <p class="mb-0">Bedankt om mijn persoonlijke portfolio website te bezoeken.</p>
-      <p>Je kan me contacteren via de contact pagina.</p>
+      <h5 class="text-uppercase tekstkleur-licht padding">Burak's Portfolio</h5>
+      <p class="mb-0 padding">Bedankt om mijn persoonlijke portfolio website te bezoeken.</p>
+      <p class="padding">Je kan me contacteren via de <a href="contact.html">contact</a> pagina.</p>
     </section>
     <section class="col-lg-3 col-md-6">
       <h5 class="text-uppercase tekstkleur-licht">Snelle links</h5>
       <ul class="list-unstyled">
         <li>
-          <a href="index.html">Home</a>
+          <a href="#">Home</a>
         </li>
         <li>
-          <a href="#">Portfolio</a>
+          <a href="portfolio.html">Portfolio</a>
         </li>
         <li>
           <a href="contact.html">Contact</a>
@@ -160,8 +161,8 @@
           Noorderplaats 2, 2000 Antwerpen</p>
         </li>
     </section>
-    <section class="text-center pt-3 licht text-dark">
-      <p>&copy; 2024 Copyright: Burak Polat</p>
+    <section class="text-center p-3 licht text-dark container-fluid">
+      <p>&copy; <span id="year"></span> Copyright: Burak Polat</p>
 
     </section>
 
